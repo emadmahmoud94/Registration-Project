@@ -1,0 +1,154 @@
+
+html {
+    max-width: 500px;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+/* Code for the header */
+
+header {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: -8px;
+}
+
+.hr2, .hr3 {
+    height: 2px;
+    background-color: black;
+}
+
+.hr1 {
+    margin-bottom: -3px;
+    height: 6px;
+    background-color: black;
+}
+
+/* Code for the Form */
+
+fieldset {
+    border: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact input, select {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 236, 236);
+}
+
+::-webkit-input-placeholder {
+    text-align: right;
+    color: black;
+    margin-right: 10px;
+}
+
+.box2 input{
+    display: block;
+    width: 50%;
+}
+
+input, select {
+    display: block;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div input {
+    display: inline;
+}
+
+input:focus {
+    border: 1px solid orange;
+}
+
+textarea {
+    margin-top: 15px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 251, 246);
+}
+
+fieldset p {
+    margin-bottom: 8px;
+}
+
+.textarea {
+    margin-top: 16px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;   
+}
+
+button {
+    width: 100%;
+    height: 75px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: darkcyan;
+}
+
+.newsletter {
+    padding-bottom: 30px;
+}
+
+p {
+    font-weight: bold;
+}
+
+
+/* Code for footer */
+footer {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+h1, footer {
+    background-color: rgb(26, 26, 45);
+    color: white;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 768px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        display: flex;
+        width: 100%;
+    }
+    
+    .box input, .box select {
+        display: flex;
+        width: 300px;
+        margin-left: auto;
+    }
+
+    .box label {
+        margin: auto 0;
+        text-align: left;
+    }
+
+    .box2 input{
+        width: 16em;
+        margin-right: auto;
+    }
+}
