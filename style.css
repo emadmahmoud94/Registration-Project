@@ -1,5 +1,5 @@
 
-html {
+.container {
     max-width: 500px;
     margin: auto;
 }
@@ -11,7 +11,7 @@ html {
 
 /* Code for the header */
 
-header {
+header, .header {
     text-align: center;
 }
 
@@ -38,8 +38,9 @@ fieldset {
     border: none;
 }
 
-h2 {
-    text-align: center;
+legend {
+    font-weight: 700;
+    font-size: 22px;
 }
 
 .contact input, select {
@@ -70,7 +71,7 @@ div input {
     display: inline;
 }
 
-input:focus {
+input:focus, select:focus, textarea:focus {
     border: 1px solid orange;
 }
 
@@ -148,7 +149,8 @@ h1, footer {
     }
 
     .box2 input{
-        width: 16em;
-        margin-right: auto;
+        width: 25%;
+        margin-right: 184px;
+        
     }
 }
